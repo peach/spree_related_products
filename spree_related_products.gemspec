@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_related_products'
-  s.version     = '3.2'
+  s.version     = '1.1.0'
   s.summary     = 'Allows multiple types of relationships between products to be defined'
   s.description = s.summary
   s.required_ruby_version = '>= 1.9.3'
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = false
 
-  s.add_dependency 'spree_backend', '~> 2.4.0'
+  s.add_dependency "solidus", [">= 1.1.0.pre", "< 1.2.0"]
 
   s.add_development_dependency 'factory_girl', '4.4'
   s.add_development_dependency 'ffaker'
